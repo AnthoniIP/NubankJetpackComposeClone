@@ -14,9 +14,9 @@ import androidx.compose.material.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.ipsoft.nubankcomposeclone.ui.theme.NuBackgroundColor02
 import com.ipsoft.nubankcomposeclone.ui.theme.NuColor03
 import com.ipsoft.nubankcomposeclone.ui.theme.NubankComposeCloneTheme
 import com.ipsoft.nubankcomposeclone.ui.widgets.AccountBalance
@@ -75,7 +75,7 @@ fun Home() {
 
     Column(
         modifier = Modifier
-            .background(Color(0xFF223322))
+            .background(NuBackgroundColor02)
             .fillMaxSize()
             .verticalScroll(scrollState)
     ) {

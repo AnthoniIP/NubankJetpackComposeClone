@@ -18,7 +18,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.ipsoft.nubankcomposeclone.ui.theme.NuBackgroundColor01
-import com.ipsoft.nubankcomposeclone.ui.theme.NuColor05
+import com.ipsoft.nubankcomposeclone.ui.theme.NuColor04
 import com.ipsoft.nubankcomposeclone.R
 
 @Composable
@@ -68,11 +68,10 @@ fun CreditInfo01() {
                 .padding(top = 10.dp)
                 .fillMaxWidth(),
             style = TextStyle(
-                color = NuColor05,
+                color = NuColor04,
                 fontSize = 16.sp,
-                fontFamily = FontFamily.Serif,
                 fontWeight = FontWeight.SemiBold,
-                letterSpacing = -0.5.sp,
+                letterSpacing = (-0.5).sp,
             )
         )
         Text(
@@ -82,9 +81,8 @@ fun CreditInfo01() {
                 .fillMaxWidth(),
             style = TextStyle(
                 fontSize = 24.sp,
-                fontFamily = FontFamily.Serif,
                 fontWeight = FontWeight.Bold,
-                letterSpacing = -0.5.sp,
+                letterSpacing = (-0.5).sp,
             )
         )
         Text(
@@ -92,11 +90,10 @@ fun CreditInfo01() {
             modifier = Modifier
                 .fillMaxWidth(),
             style = TextStyle(
-                color = NuColor05,
+                color = NuColor04,
                 fontSize = 14.sp,
-                fontFamily = FontFamily.Serif,
                 fontWeight = FontWeight.SemiBold,
-                letterSpacing = -0.5.sp,
+                letterSpacing = (-0.5).sp,
             )
         )
     }

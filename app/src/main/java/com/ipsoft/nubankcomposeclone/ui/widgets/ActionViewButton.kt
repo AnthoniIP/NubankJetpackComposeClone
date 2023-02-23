@@ -59,7 +59,7 @@ fun ActionViewButton(text: String, icon: ImageVector) {
                 fontFamily = FontFamily.Serif,
                 fontWeight = FontWeight.SemiBold,
                 textAlign = TextAlign.Center,
-                letterSpacing = -1.5.sp,
+                letterSpacing = (-1.5).sp,
             )
         )
     }

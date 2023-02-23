@@ -19,13 +19,12 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.res.vectorResource
 import androidx.compose.ui.text.TextStyle
-import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.ipsoft.nubankcomposeclone.R.drawable
 import com.ipsoft.nubankcomposeclone.ui.theme.NuBackgroundColor01
-import com.ipsoft.nubankcomposeclone.ui.theme.NuColor05
+import com.ipsoft.nubankcomposeclone.ui.theme.NuColor04
 
 @Composable
 fun ServiceInfo02() {
@@ -56,7 +55,6 @@ fun ServiceInfo02() {
                 text = "Seguro de vida",
                 style = TextStyle(
                     fontSize = 18.sp,
-                    fontFamily = FontFamily.Serif,
                     fontWeight = FontWeight.Bold,
                 )
             )
@@ -74,9 +72,8 @@ fun ServiceInfo02() {
                 .padding(top = 10.dp)
                 .fillMaxWidth(),
             style = TextStyle(
-                color = NuColor05,
+                color = NuColor04,
                 fontSize = 14.sp,
-                fontFamily = FontFamily.Serif,
                 fontWeight = FontWeight.SemiBold,
                 letterSpacing = (-0.5).sp,
             )

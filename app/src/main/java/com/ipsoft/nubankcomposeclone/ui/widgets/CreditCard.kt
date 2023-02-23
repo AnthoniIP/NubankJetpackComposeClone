@@ -16,7 +16,6 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.res.vectorResource
 import androidx.compose.ui.text.TextStyle
-import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -55,7 +54,6 @@ fun CreditCard() {
                     .fillMaxSize(),
                 style = TextStyle(
                     fontSize = 14.sp,
-                    fontFamily = FontFamily.Serif,
                     fontWeight = FontWeight.SemiBold,
                     letterSpacing = -0.5.sp,
                 )

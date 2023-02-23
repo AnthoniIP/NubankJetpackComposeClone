@@ -10,7 +10,6 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.TextStyle
-import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -30,7 +29,6 @@ fun AccountBalance() {
                 .paddingFromBaseline(bottom = 28.dp),
             style = TextStyle(
                 fontSize = 22.sp,
-                fontFamily = FontFamily.Serif,
                 fontWeight = FontWeight.Bold,
             )
         )
