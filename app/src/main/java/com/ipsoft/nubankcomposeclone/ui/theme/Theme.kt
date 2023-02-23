@@ -7,15 +7,15 @@ import androidx.compose.material.lightColors
 import androidx.compose.runtime.Composable
 
 private val DarkColorPalette = darkColors(
-    primary = Purple200,
+    primary = NuColor01,
     primaryVariant = Purple700,
-    secondary = Teal200
+    secondary = NuColor02
 )
 
 private val LightColorPalette = lightColors(
-    primary = Purple500,
+    primary = NuColor01,
     primaryVariant = Purple700,
-    secondary = Teal200
+    secondary = NuColor02
 
     /* Other default colors to override
     background = Color.White,
@@ -30,7 +30,7 @@ private val LightColorPalette = lightColors(
 @Composable
 fun NubankComposeCloneTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
-    content: @Composable () -> Unit
+    content: @Composable () -> Unit,
 ) {
     val colors = if (darkTheme) {
         DarkColorPalette
